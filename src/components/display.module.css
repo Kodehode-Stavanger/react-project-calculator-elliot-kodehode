@@ -1,0 +1,31 @@
+
+
+.display {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    max-width: 330px;
+    padding: 10px;
+    background-color: #1c1c31;
+    border-radius: 8px;
+    margin: 0 0 20px 0;
+    /* justify-content: center; */
+}
+
+.display * {
+    all: unset;
+    width: 100%;
+    text-align: end;
+}
+
+.currentCalc {
+    color: rgb(194, 194, 194);
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.currentResult{
+    color: rgb(241, 241, 241);
+    font-size: 38px;
+    font-weight: 600;
+}
